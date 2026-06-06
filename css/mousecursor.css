@@ -1,0 +1,49 @@
+/* =========================
+   CUSTOM SHUTTLECOCK CURSOR
+   ========================= */
+
+.sisf-cursor {
+    position: fixed;
+    top: 28px;
+    left: 18px;
+    z-index: 999999;
+    pointer-events: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Wrapper */
+.sisf-cursor-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sisf-cursor--follower {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+
+    background: url("../images/shuttlecock.png") no-repeat center;
+    background-size: contain;
+
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+
+    transition: transform 0.05s linear;
+    will-change: transform;
+}
+
+/* Hide unused elements (optional) */
+.sisf-cursor--label,
+.sisf-cursor--drap,
+.sisf-cursor--icon {
+    display: none !important;
+}
