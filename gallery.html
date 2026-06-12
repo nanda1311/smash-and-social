@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
    
-<!-- Mirrored from picklepro-html.wpthemeverse.com/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jun 2026 09:28:58 GMT -->
 <head>
       <!-- Meta -->
       <meta charset="utf-8">
@@ -91,7 +90,7 @@
                                        <a class="nav-link" href="service.html">Service</a>
                                     </li>
                                     <li class="nav-item submenu">
-                                       <a class="nav-link" href="blog-grid.html">Blog</a>
+                                       <a class="nav-link" href="blogs.html">Blog</a>
                                     </li>
                                     <li class="nav-item submenu">
                                        <a class="nav-link active" href="gallery.html">Gallery</a>
@@ -139,92 +138,212 @@
          </div>
       </div>
       <!-- Banner Section End -->
-      <!-- Service List Section Start -->
-      <div class="service-list-section sisf-section">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4 col-md-6">
-                  <div class="sisf-sis-e-service-list wow fadeInUp">
-                     <div class="sisf-e-inner position-relative">
-                        <!-- Image Start -->
-                        <div class="sisf-e-service-image">
-                              <figure class="image-anime">
-                                 <img src="images/service-image-1.jpg" class="w-100" alt="Picklepro">
-                              </figure>
-                        </div>
-                         <!-- Image End -->
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="sisf-sis-e-service-list wow fadeInUp" data-wow-delay="0.20s">
-                     <div class="sisf-e-inner position-relative">
-                        <!-- Image Start -->
-                        <div class="sisf-e-service-image">
-                              <figure class="image-anime">
-                                 <img src="images/service-image-2.jpg" class="w-100" alt="Picklepro">
-                              </figure>
-                        </div>
-                        <!-- Image End -->
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="sisf-sis-e-service-list wow fadeInUp" data-wow-delay="0.40s">
-                     <div class="sisf-e-inner position-relative">
-                        <!-- Image Start -->
-                        <div class="sisf-e-service-image">
-                              <figure class="image-anime">
-                                 <img src="images/service-image-3.jpg" class="w-100" alt="Picklepro">
-                              </figure>
-                        </div>
-                        <!-- Image End -->
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="sisf-sis-e-service-list wow fadeInUp" data-wow-delay="0.60s">
-                     <div class="sisf-e-inner position-relative">
-                        <!-- Image Start -->
-                        <div class="sisf-e-service-image">
-                              <figure class="image-anime">
-                                 <img src="images/service-image-4.jpg" class="w-100" alt="Picklepro">
-                              </figure>
-                        </div>
-                        <!-- Image End -->
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="sisf-sis-e-service-list wow fadeInUp" data-wow-delay="0.80s">
-                     <div class="sisf-e-inner position-relative">
-                        <!-- Image Start -->
-                        <div class="sisf-e-service-image">
-                              <figure class="image-anime">
-                                 <img src="images/service-image-5.jpg" class="w-100" alt="Picklepro">
-                              </figure>
-                        </div>
-                        <!-- Image End -->
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="sisf-sis-e-service-list wow fadeInUp" data-wow-delay="1s">
-                     <div class="sisf-e-inner position-relative">
-                        <!-- Image Start -->
-                        <div class="sisf-e-service-image">
-                              <figure class="image-anime">
-                                 <img src="images/service-image-6.jpg" class="w-100" alt="Picklepro">
-                              </figure>
-                        </div>
-                        <!-- Image End -->
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Service List Section End -->
+      <!-- Gallery Section Start -->
+<section class="gallery-area">
+   <div class="gallery-grid">
+
+      <div class="gallery-item"><img src="images/service-image-1.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-2.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-3.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-4.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-5.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-6.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-1.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-2.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-3.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-4.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-5.jpg"></div>
+      <div class="gallery-item"><img src="images/service-image-6.jpg"></div>
+
+   </div>
+</section>
+
+<!-- =======================
+     LIGHTBOX
+======================= -->
+<div class="lightbox" id="lightbox">
+
+   <span class="close" id="closeBtn">&times;</span>
+
+   <span class="nav prev" id="prevBtn">&#10094;</span>
+   <span class="nav next" id="nextBtn">&#10095;</span>
+
+   <img id="lightboxImg" src="">
+</div>
+<style>
+.gallery-grid {
+   column-count: 3;
+   column-gap: 18px;
+   padding: 20px;
+}
+
+@media (max-width: 992px) {
+   .gallery-grid { column-count: 2; }
+}
+
+@media (max-width: 600px) {
+   .gallery-grid { column-count: 1; }
+}
+
+.gallery-item {
+   break-inside: avoid;
+   margin-bottom: 18px;
+   border-radius: 14px;
+   overflow: hidden;
+   cursor: pointer;
+   position: relative;
+   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.gallery-item img {
+   width: 100%;
+   display: block;
+   transition: transform 0.4s ease;
+}
+
+.gallery-item:hover img {
+   transform: scale(1.07);
+}
+
+/* =======================
+   LIGHTBOX
+======================= */
+.lightbox {
+   position: fixed;
+   inset: 0;
+   background: rgba(0,0,0,0.92);
+   display: none;
+   align-items: center;
+   justify-content: center;
+   z-index: 9999;
+}
+
+.lightbox img {
+   max-width: 90%;
+   max-height: 85%;
+   border-radius: 10px;
+   user-select: none;
+}
+
+.lightbox .close {
+   position: absolute;
+   top: 20px;
+   right: 25px;
+   font-size: 40px;
+   color: #fff;
+   cursor: pointer;
+}
+
+.lightbox .nav {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 50px;
+   color: #fff;
+   cursor: pointer;
+   user-select: none;
+   padding: 10px;
+}
+
+.lightbox .prev { left: 15px; }
+.lightbox .next { right: 15px; }
+
+.lightbox .nav:hover,
+.lightbox .close:hover {
+   color: #ddd;
+}
+</style>
+<!-- =======================
+     JAVASCRIPT
+======================= -->
+<script>
+const images = document.querySelectorAll('.gallery-item img');
+const lightbox = document.getElementById('lightbox');
+const lightboxImg = document.getElementById('lightboxImg');
+
+const prevBtn = document.getElementById('prevBtn');
+const nextBtn = document.getElementById('nextBtn');
+const closeBtn = document.getElementById('closeBtn');
+
+let currentIndex = 0;
+
+/* Open lightbox */
+images.forEach((img, index) => {
+   img.addEventListener('click', () => {
+      currentIndex = index;
+      openLightbox();
+   });
+});
+
+function openLightbox() {
+   lightbox.style.display = 'flex';
+   updateImage();
+}
+
+/* Update image */
+function updateImage() {
+   lightboxImg.src = images[currentIndex].src;
+}
+
+/* Next / Prev */
+nextBtn.addEventListener('click', () => {
+   currentIndex = (currentIndex + 1) % images.length;
+   updateImage();
+});
+
+prevBtn.addEventListener('click', () => {
+   currentIndex = (currentIndex - 1 + images.length) % images.length;
+   updateImage();
+});
+
+/* Close */
+closeBtn.addEventListener('click', () => {
+   lightbox.style.display = 'none';
+});
+
+lightbox.addEventListener('click', (e) => {
+   if (e.target === lightbox) {
+      lightbox.style.display = 'none';
+   }
+});
+
+/* Keyboard support */
+document.addEventListener('keydown', (e) => {
+   if (lightbox.style.display === 'flex') {
+      if (e.key === 'ArrowRight') nextBtn.click();
+      if (e.key === 'ArrowLeft') prevBtn.click();
+      if (e.key === 'Escape') lightbox.style.display = 'none';
+   }
+});
+
+/* =======================
+   SWIPE SUPPORT (MOBILE)
+======================= */
+let touchStartX = 0;
+let touchEndX = 0;
+
+lightbox.addEventListener('touchstart', (e) => {
+   touchStartX = e.changedTouches[0].screenX;
+}, { passive: true });
+
+lightbox.addEventListener('touchend', (e) => {
+   touchEndX = e.changedTouches[0].screenX;
+   handleSwipe();
+}, { passive: true });
+
+function handleSwipe() {
+   const threshold = 50;
+
+   if (touchStartX - touchEndX > threshold) {
+      nextBtn.click(); // swipe left
+   }
+
+   if (touchEndX - touchStartX > threshold) {
+      prevBtn.click(); // swipe right
+   }
+}
+</script>
+
       <!-- Footer Start -->
       <footer class="main-footer main--footer">
          <div class="sisf-page-footer-inner-area">
@@ -282,14 +401,14 @@
                         <div class="footer-links footer-about-links wow fadeInUp" data-wow-delay="0.75s">
                            <h3>Contact Us</h3>
                            <div class="sisf-details mb-3">
-                              <a href="tel:+12225559090"><i class="fa-solid pe-3 fa-phone-volume"></i>7780250502</a>
+                              <a href="tel:+9966992122"><i class="fa-solid pe-3 fa-phone-volume"></i>9966992122</a>
                            </div>
                            <div class="sisf-details mb-3">
-                              <a href="mailto:nanda@gmail.com"><span class="pe-3"><i class="fa-regular fa-envelope"></i></span>nanda@gmail.com</a>
+                              <a href="mailto:hello@smashandsocial.com"><span class="pe-3"><i class="fa-regular fa-envelope"></i></span>hello@smashandsocial.com</a>
                            </div>
                            <div class="sisf-details d-flex align-items-center">
                               <span class="pe-3"><i class="fa-solid fa-location-dot"></i></span>
-                              <span class="location-text">Phoenix, AZ 2120 East Court Ave, Suite 104</span>
+                              <span class="location-text">East of NGEF Layout, Kasturi Nagar, Bengaluru, Karnataka</span>
                            </div>
                         </div>
                         <!-- Links End -->
@@ -395,5 +514,4 @@
       <script src="js/function.js"></script>
    </body>
 
-<!-- Mirrored from picklepro-html.wpthemeverse.com/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jun 2026 09:28:58 GMT -->
 </html>

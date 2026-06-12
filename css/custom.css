@@ -15,6 +15,7 @@
 	--error-color: rgb(230, 87, 87);
 	--default-font: "DM Sans", sans-serif;
 	--heading-font: "Rajdhani", sans-serif;
+	
 }
 
 /************************************/
@@ -163,6 +164,7 @@ body {
 	object-fit: cover;
 	-webkit-transform-origin: left;
 	transform-origin: left;
+	border-radius: 12px;
 }
 
 .row {
@@ -688,7 +690,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	top: 1px;
-    position: relative;
+     position: relative;
 }
 
 .sisf--button .sisf-sis-button .icon1 {
@@ -725,7 +727,7 @@ body {
 }
 
 ::selection {
-  background: var(--primary-color);
+  background: var(--main-color);
   color: var(--white-color);
 }
 
@@ -3202,12 +3204,6 @@ body {
 /* ==========================================
    (PicklePro) 14. Testimonial Section css
 ============================================= */
-.testimonials-bg {
-    background-image: url("../images/testimonial-bg-image.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
 
 .logo-slider {
 	margin-top: 70px;
@@ -6533,25 +6529,6 @@ ease-in-out;
 	padding-top: 100px;
 }
 
-.sisf-power-elite-col {
-	background-image: url("../images/author-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-	padding: 25px;
-}
-
-.sisf-power-elite-col .sisf-image-icon {
-	min-width: 133px;
-	margin-right: 20px;
-}
-
-.sisf-power-elite-col .sisf-ratings {
-	padding: 10px;
-	border: 1px solid var(--main-color);
-	border-radius: 50px;
-	width: 40%;
-	margin: 0 auto;
-}
 
 .layout-gallery-section {
 	background-image: url("../images/portfolio-bg.html");
@@ -6571,27 +6548,7 @@ ease-in-out;
 	filter: brightness(0) saturate(100%) invert(76%) sepia(74%) saturate(929%) hue-rotate(25deg) brightness(97%) contrast(96%);
 }
  
-.kickstart-your-website {
-	background-image: url("../images/kik-start-bg.jpg");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: cover;
-	padding: 60px;
-	border-radius: 20px;
-	overflow: hidden;
-	margin: 70px 0;
-}
 
-.sisf-devices-experience {
-	background-image: url("../images/bg-lines.png");
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: cover;
-	padding: 60px;
-	border-radius: 20px;
-	overflow: hidden;
-	margin: 70px 0;
-}
 
 .sisf-devices-icon span {
 	font-size: 100px;
