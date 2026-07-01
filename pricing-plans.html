@@ -46,18 +46,41 @@
       <link href="css/custom.css" rel="stylesheet" media="screen">
    </head>
    <body>
-      <!-- Preloader Start -->
-      <div class="preloader">
-         <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon">
-               <figure class="reveal">
-                  <img src="images/loader.png" alt="Picklepro">
-               </figure>
-            </div>
-         </div>
+<!-- Preloader Start -->
+<div class="preloader">
+   <div class="loading-container">
+      <div class="loading"></div>
+      <div id="loading-icon">
+         <figure class="reveal">
+            <img src="images/loader.png" alt="Smash & Social" class="preload-img active" data-step="0">
+            <img src="images/icon-1.svg" alt="Badminton Courts" class="preload-img" data-step="1">
+            <img src="images/icon-2.svg" alt="Calisthenics Gym" class="preload-img" data-step="2">
+         </figure>
       </div>
-      <!-- Preloader End -->
+   </div>
+</div>
+<!-- Preloader End -->
+ <script>
+document.addEventListener("DOMContentLoaded", function () {
+   const images = document.querySelectorAll("#loading-icon .preload-img");
+   let current = 0;
+   const interval = 500; // ms each image is shown
+
+   function showNext() {
+      images[current].classList.remove("active");
+      current++;
+      if (current < images.length) {
+         images[current].classList.add("active");
+         setTimeout(showNext, interval);
+      } else {
+         // all images shown, now hide preloader (your existing logic)
+         document.querySelector(".preloader").classList.add("loaded");
+      }
+   }
+
+   setTimeout(showNext, interval);
+});
+</script>
       <!-- Header New Start -->
       <header class="header-area">
          <div class="main-header">
@@ -168,7 +191,7 @@
                            </div>
                            <div class="sisf-m-price d-flex">
                               <div class="sisf-m-price-wrapper">
-                                 <span class="sisf-m-price-value pe-2">$ 29</span>
+                                 <span class="sisf-m-price-value pe-2">₹ 29</span>
                               </div>
                               <span class="sisf-m-price-period"> / Month</span>
                            </div>
@@ -219,7 +242,7 @@
                            </div>
                            <div class="sisf-m-price d-flex">
                               <div class="sisf-m-price-wrapper">
-                                 <span class="sisf-m-price-value pe-2">$ 39</span>
+                                 <span class="sisf-m-price-value pe-2">₹ 39</span>
                               </div>
                               <span class="sisf-m-price-period"> / Month</span>
                            </div>
@@ -270,7 +293,7 @@
                            </div>
                            <div class="sisf-m-price d-flex">
                               <div class="sisf-m-price-wrapper">
-                                 <span class="sisf-m-price-value pe-2">$ 49</span>
+                                 <span class="sisf-m-price-value pe-2">₹ 49</span>
                               </div>
                               <span class="sisf-m-price-period"> / Month</span>
                            </div>
@@ -409,7 +432,7 @@
                            </div>
                            <div class="sisf-m-price border-0 d-flex">
                               <div class="sisf-m-price-wrapper">
-                                 <span class="sisf-m-price-value pe-2">$ 29</span>
+                                 <span class="sisf-m-price-value pe-2">₹ 29</span>
                               </div>
                               <span class="sisf-m-price-period"> / Month</span>
                            </div>
@@ -465,7 +488,7 @@
                            </div>
                            <div class="sisf-m-price border-0 d-flex">
                               <div class="sisf-m-price-wrapper">
-                                 <span class="sisf-m-price-value pe-2">$ 39</span>
+                                 <span class="sisf-m-price-value pe-2">₹ 39</span>
                               </div>
                               <span class="sisf-m-price-period"> / Month</span>
                            </div>
@@ -521,7 +544,7 @@
                            </div>
                            <div class="sisf-m-price border-0 d-flex">
                               <div class="sisf-m-price-wrapper">
-                                 <span class="sisf-m-price-value pe-2">$ 49</span>
+                                 <span class="sisf-m-price-value pe-2">₹ 49</span>
                               </div>
                               <span class="sisf-m-price-period"> / Month</span>
                            </div>

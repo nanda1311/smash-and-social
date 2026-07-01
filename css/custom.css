@@ -3,9 +3,9 @@
 /************************************/
 
 :root {
-	--main-color: #A2D014;
-	--primary-color: #002F47;
-	--secondary-color: #002F47;
+	--main-color: #a1be0c;
+	--primary-color: #223e8b;
+	--secondary-color: #223e8b;
 	--text-color: #3D5A6A;
 	--accent-color: #FE6035;
 	--white-color: #FFFFFF;
@@ -152,7 +152,7 @@ body {
 	display: inline-flex;
 	visibility: hidden;
 	overflow: hidden;
-	width: 100%;
+	width: 127%;
 }
 
 .reveal img {
@@ -2312,7 +2312,7 @@ body {
 }
 
 .sisf-sis-icon-with-text--hover.other .sisf-e-inner {
-	margin-top: 40px;
+	margin-top: 10px;
 	aspect-ratio: 1;
 }
 
@@ -6936,9 +6936,24 @@ ease-in-out;
 .scroll-container {
 	width: 100%;
 	overflow: hidden;
+	background-color: var(--primary-color);
 	display: flex;
 	align-items: center;
 	white-space: nowrap;
+}
+#loading-icon .reveal {
+   position: relative;
+}
+#loading-icon .preload-img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   transition: opacity 0.4s ease;
+}
+#loading-icon .preload-img.active {
+   position: relative;
+   opacity: 1;
 }
 
 .scroll-content {
@@ -6952,18 +6967,16 @@ ease-in-out;
 	display: flex;
 	align-items: center;
 }
-
 .scroll-content .content span {
-	font-family: var(--heading-font);
-    font-size: 120px;
+    font-family: var(--heading-font);
+    font-size: 96px;
     font-weight: 700;
     line-height: normal;
-	text-transform: uppercase;
-    color: transparent;
-    mask-image: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 100%);
-	-webkit-text-stroke: 1px var(--white-color)
+    text-transform: uppercase;
+    color: #84848400;
+    mask-image: linear-gradient(to bottom, rgb(39 255 0) 0%, rgba(0, 0, 0, 0) 100%);
+    -webkit-text-stroke: 1px #b4e717;
 }
-
 @keyframes scrollX {
 	0% {
 		transform: translateX(0);
