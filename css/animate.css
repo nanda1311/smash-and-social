@@ -106,9 +106,7 @@
           animation-name: flash;
 }
 
-.spin-img {
-    animation: spin-img 15s linear infinite normal;
-}
+
 
 @-webkit-keyframes spin-img {
     0% {

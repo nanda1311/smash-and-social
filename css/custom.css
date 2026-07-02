@@ -152,12 +152,12 @@ body {
 	display: inline-flex;
 	visibility: hidden;
 	overflow: hidden;
-	width: 127%;
+	width: 120%;
 }
 
 .reveal img {
 	height: 100%;
-	width: 100%;
+	width: 80% !important;
 	-o-object-fit: cover;
 	object-fit: cover;
 	-webkit-transform-origin: left;
@@ -4329,7 +4329,7 @@ select.form-control option {
 /*** 	22. Contact Page css      ***/
 /************************************/
 .contact-bg {
-	background-image: url("../images/contact_img.jpg");
+	background-image: url("../images/contact_img.jpeg");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 49% auto;
