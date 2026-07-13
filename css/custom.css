@@ -122,6 +122,10 @@ body {
 	padding-left: 15px;
 }
 
+
+.reveal1{
+	border-radius: 12px;
+}
 .image-anime {
 	position: relative;
 	overflow: hidden !important; 
@@ -6655,7 +6659,7 @@ ease-in-out;
 }
 
 .footer-logo img {
-	width: auto;
+	width: 50%;
 }
 
 .footer-contact p {
