@@ -250,24 +250,181 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
       <!-- Plan Your Visit Section End -->
 
-      <!-- What We Offer Section Start -->
-      <div class="why-choose-us-section position-relative comman-bg section">
-         <div class="container">
-            <div class="row"><div class="col-12"><div class="sisf-sis-section-title text-center section-title"><h1 class="sisf-sis-heading-title text-anime-style-3"><span>WHAT WE OFFER</span></h1><h2 class="sisf-m-title text-anime-style-3">Complete <span class="sisf-e-colored">sports & lifestyle destination</span> under one roof</h2><div class="sisf-m-text wow fadeInUp"><p>From professional badminton courts and calisthenics gym to a sports store and café — everything you need to play, train, and connect.</p></div></div></div></div>
-            <div class="row align-items-center">
-               <div class="col-md-3">
-                  <div class="sisf-sis-what-we-have-contents wow fadeInUp"><div class="sisf-e-inner d-flex flex-column align-items-end"><div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon1.svg" alt="Badminton"></figure></div><div class="sisf-e-content text-end"><div class="sisf-sis-title mb-2"><h4>Professional Badminton Courts</h4></div><div class="sisf-e-text"><p class="mb-0">Premium courts for casual games, practice, and tournaments.</p></div></div></div></div>
-                  <div class="sisf-sis-what-we-have-contents bottom wow fadeInUp" data-wow-delay="0.25s"><div class="sisf-e-inner d-flex flex-column align-items-end"><div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon2.svg" alt="Academy"></figure></div><div class="sisf-e-content text-end"><div class="sisf-sis-title mb-2"><h4>Summer Academy & Coaching</h4></div><div class="sisf-e-text"><p class="mb-0">Professional coaching for children and young athletes.</p></div></div></div></div>
-               </div>
-               <div class="col-md-6"><div class="sisf-why-choose-us-image wow zoomInUp"><figure class="image-anime"><img src="images/why-choose-img_new.png" class="w-100" alt="Smash and Social Hub"></figure></div></div>
-               <div class="col-md-3">
-                  <div class="sisf-sis-what-we-have-contents wow fadeInUp" data-wow-delay="0.5s"><div class="sisf-e-inner"><div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon3.svg" alt="Gym & Store"></figure></div><div class="sisf-e-content"><div class="sisf-sis-title mb-2"><h4>Calisthenics Gym & Sports Store</h4></div><div class="sisf-e-text"><p class="mb-0">Bodyweight training equipment & quality sports gear.</p></div></div></div></div>
-                  <div class="sisf-sis-what-we-have-contents bottom wow fadeInUp" data-wow-delay="0.75s"><div class="sisf-e-inner"><div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon4.svg" alt="Cafe"></figure></div><div class="sisf-e-content"><div class="sisf-sis-title mb-2"><h4>Cozy Café & Social Space</h4></div><div class="sisf-e-text"><p class="mb-0">Relax, recharge, and connect with others.</p></div></div></div></div>
-               </div>
+
+
+
+
+<!-- Why Choose Us Section Start -->
+<div class="why-choose-us-section position-relative comman-bg-player section" id="scrollAnimationSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sisf-sis-section-title text-center section-title">
+                    <h1 class="sisf-sis-heading-title text-anime-style-3"><span>WHY CHOOSE US</span></h1>
+                    <h2 class="sisf-m-title text-anime-style-3">Why players & families <span class="sisf-e-colored">choose Smash & Social</span></h2>
+                    <div class="sisf-m-text wow fadeInUp">
+                        <p>We combine premium facilities, expert coaching, and a vibrant social atmosphere to create an unmatched sports and lifestyle destination.</p>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- What We Offer Section End -->
+        </div>
+        
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <div class="sisf-sis-what-we-have-contents wow fadeInUp">
+                    <div class="sisf-e-inner d-flex flex-column align-items-end">
+                        <div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon1.svg" alt="Courts"></figure></div>
+                        <div class="sisf-e-content text-end">
+                            <div class="sisf-sis-title mb-2"><h4>Professional Badminton Courts</h4></div>
+                            <div class="sisf-e-text"><p class="mb-0">Top-quality surfaces for smooth movement and competitive gameplay.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sisf-sis-what-we-have-contents bottom wow fadeInUp" data-wow-delay="0.25s">
+                    <div class="sisf-e-inner d-flex flex-column align-items-end">
+                        <div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon2.svg" alt="Community"></figure></div>
+                        <div class="sisf-e-content text-end">
+                            <div class="sisf-sis-title mb-2"><h4>Community-Driven Culture</h4></div>
+                            <div class="sisf-e-text"><p class="mb-0">Tournaments, social events, and a welcoming space for all.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- The Image Container -->
+            <div class="col-md-6">
+                <div class="sisf-why-choose-us-image" id="scrollImageContainer">
+                    <figure class="image-anime reveal-player">
+                        <img id="scrubImage" src="animation/ezgif-frame-001.png" class="w-100" alt="Smash and Social Hub" style="object-fit: contain; max-height: 600px;">
+                    </figure>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="sisf-sis-what-we-have-contents wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="sisf-e-inner">
+                        <div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon3.svg" alt="Store"></figure></div>
+                        <div class="sisf-e-content">
+                            <div class="sisf-sis-title mb-2"><h4>Sports Store & Café</h4></div>
+                            <div class="sisf-e-text"><p class="mb-0">Quality gear, rackets, apparel, and a cozy social hub to relax.</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sisf-sis-what-we-have-contents bottom wow fadeInUp" data-wow-delay="0.75s">
+                    <div class="sisf-e-inner">
+                        <div class="sisf-sis-icons mb-4"><figure><img src="images/why-chhose-icon4.svg" alt="Coaching"></figure></div>
+                        <div class="sisf-e-content">
+                            <div class="sisf-sis-title mb-2"><h4>Summer Academy & Coaching</h4></div>
+                            <div class="sisf-e-text"><p class="mb-0">Professional training for kids and adults, focusing on technique and strategy.</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="sisf-m-button wow fadeInUp pt-4">
+                    <a href="contact.html" class="btn-default">Join the Community<i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CSS for visual stability -->
+<style>
+    #scrollImageContainer {
+        width: 100%;
+        height: auto;
+        min-height: 400px; /* Adjust based on your design */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #scrollImageContainer img {
+        transition: none !important; /* Prevents fade/blur between frame changes */
+    }
+</style>
+
+<!-- JavaScript for Scroll Scrubbing -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. CONFIGURATION FOR YOUR EXACT FILES
+    const totalFrames = 35; // You have 35 images (001 to 035)
+    const imageBasePath = 'animation/ezgif-frame-'; 
+    const fileExtension = '.png'; 
+    const useLeadingZeros = true; // You have 001, 002, etc.
+
+    const imgElement = document.getElementById('scrubImage');
+    const section = document.getElementById('scrollAnimationSection');
+    
+    // Helper to format number with leading zeros (e.g., 1 becomes 001)
+    function formatNumber(num) {
+        return num.toString().padStart(3, '0'); // Changed from 2 to 3 because your files are 001, 002
+    }
+
+    // Pre-load all images so they don't flash white while loading
+    const preloadedImages = [];
+    for (let i = 1; i <= totalFrames; i++) {
+        const img = new Image();
+        img.src = imageBasePath + formatNumber(i) + fileExtension;
+        preloadedImages.push(img);
+    }
+
+    // Function to update the image based on scroll
+    function updateImageOnScroll() {
+        const rect = section.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        let progress = 0;
+        const topOffset = rect.top;
+        const bottomOffset = rect.bottom;
+
+        if (topOffset < windowHeight && bottomOffset > 0) {
+            let visibleRange = windowHeight + rect.height; 
+            let currentScrollOffset = windowHeight - topOffset;
+            progress = currentScrollOffset / visibleRange;
+            progress = Math.max(0, Math.min(1, progress));
+        } else if (bottomOffset <= 0) {
+            progress = 1; 
+        } else if (topOffset >= windowHeight) {
+            progress = 0; 
+        }
+
+        let frameIndex = Math.floor(progress * (totalFrames - 1));
+        let frameNumber = formatNumber(frameIndex + 1);
+        let newSrc = imageBasePath + frameNumber + fileExtension;
+
+        // FIXED: Extract the filename from the current full URL to compare correctly
+        let currentSrc = imgElement.src.split('/').pop(); 
+        let newSrcFile = newSrc.split('/').pop();
+
+        if (currentSrc !== newSrcFile) {
+            imgElement.src = newSrc;
+        }
+    }
+
+    window.addEventListener('scroll', updateImageOnScroll);
+    updateImageOnScroll();
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
       <!-- Our Facts Section Start -->
@@ -337,7 +494,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p>Train with certified pickleball professionals who specialize in skill development, game strategy, and<br> performance improvement for players of all ages and levels.</p>
                      </div>
                   </div>
-                  <!-- Setion Title End -->
+                  <!-- Setion End -->
                </div>
             </div>
             <div class="row">
@@ -352,7 +509,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                        <div class="team-members-img">
                                           <a href="team-detail.html" class="sisf-sis-page-link">
                                              <figure>
-                                                <img src="images/coach5.png" class="w-100" alt="Picklepro">
+                                                <img src="images/coach5.png" class="w-100" alt="Smash">
                                              </figure>
                                           </a>
                                        </div>
@@ -385,7 +542,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                        <div class="team-members-img">
                                           <a href="team-detail.html" class="sisf-sis-page-link">
                                              <figure>
-                                                <img src="images/coach1.png" class="w-100" alt="Picklepro">
+                                                <img src="images/coach1.png" class="w-100" alt="Smash">
                                              </figure>
                                           </a>
                                        </div>
@@ -418,7 +575,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                        <div class="team-members-img">
                                           <a href="team-detail.html" class="sisf-sis-page-link">
                                              <figure>
-                                                <img src="images/coach2.png" class="w-100" alt="Picklepro">
+                                                <img src="images/coach2.png" class="w-100" alt="Smash">
                                              </figure>
                                           </a>
                                        </div>
@@ -451,7 +608,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                        <div class="team-members-img">
                                           <a href="team-detail.html" class="sisf-sis-page-link">
                                              <figure>
-                                                <img src="images/coach3.png" class="w-100" alt="Picklepro">
+                                                <img src="images/coach3.png" class="w-100" alt="Smash">
                                              </figure>
                                           </a>
                                        </div>
@@ -484,7 +641,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                        <div class="team-members-img">
                                           <a href="team-detail.html" class="sisf-sis-page-link">
                                              <figure>
-                                                <img src="images/coach4.png" class="w-100" alt="Picklepro">
+                                                <img src="images/coach4.png" class="w-100" alt="Smash">
                                              </figure>
                                           </a>
                                        </div>

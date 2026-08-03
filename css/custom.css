@@ -156,12 +156,12 @@ body {
 	display: inline-flex;
 	visibility: hidden;
 	overflow: hidden;
-	width: 120%;
+	width: 100%;
 }
 
-.reveal img {
+.reveal-player img {
 	height: 100%;
-	width: 80% !important;
+	width: 100% !important;
 	-o-object-fit: cover;
 	object-fit: cover;
 	-webkit-transform-origin: left;
@@ -473,6 +473,25 @@ body {
     border-radius: 50px;
 	border: 1px solid #FFFFFF1A;
 	background-color: var(--primary-color);
+}
+@media only screen and (max-width: 1199px) {
+.section-title .sisf-subtitle {
+	font-family: var(--heading-font);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+	white-space: normal;
+	margin-bottom: 15px;
+	margin-top: 40px;
+	display: inline-block;
+	color: var(--primary-color);
+	padding: 10px 15px 10px 15px;
+    border-radius: 50px;
+	border: 1px solid #FFFFFF1A;
+	background-color: var(--primary-color);
+}
 }
 
 .section-title .sisf-subtitle::before,
@@ -2084,12 +2103,13 @@ body {
 }
 
 /* ==========================================
-   (PicklePro) 05. What We Have Section css
+   (Smash) 05. What We Have Section css
 ============================================= */
-.comman-bg {
-	background-color: #F4F9EB;
+.comman-bg-player {
+	background: linear-gradient(to bottom, #d5d2c5 10%, #d8d2c9 20%, #d7d1c8 30%, #dbd8c9 40%, #d9d6c8 50%, #d6d3c6 60%, #d8d5c8 70%, #d9d6c9 80%, #c8c3b5 90%, #9790818c 100%);}
+.comman-bg{
+	background-color: #d5d0c4;
 }
-
 .sisf-sis-what-we-have-contents .sisf-e-inner,
 .sisf-sis-benefits-contents .sisf-e-inner {
 	margin-bottom: 30px;
@@ -2209,7 +2229,7 @@ body {
 }
 
 /* =====================================
-   (PicklePro) 06. About Us Section css
+   (Smash) 06. About Us Section css
 ======================================== */
 .sisf-about-side-image,
 .sisf-what-we-do-side-image,
@@ -2365,7 +2385,8 @@ body {
 .sisf-about-image img,
 .sisf-about-side-image img,
 .sisf-how-it-work-bottom-image img {
-	width: 70%;
+	width: 90%;
+	border-radius: 12px;
 }
 
 .sisf-what-we-do-side-image img,
@@ -2397,7 +2418,7 @@ body {
 }
 
 /* =====================================
-   (PicklePro) 07. Join Us Section css
+   (Smash) 07. Join Us Section css
 ======================================== */
 .join-us-section {
 	background-image: url("../images/join-us_bg.jpg");
@@ -2445,7 +2466,7 @@ body {
 }
 
 /* =========================================
-   (PicklePro) 08. How It Works Section css
+   (Smash) 08. How It Works Section css
 ============================================ */
 .how-it-works-hover-item {
 	padding: 15px;
@@ -2614,7 +2635,7 @@ body {
 }
 
 /* ==========================================
-   (PicklePro) 09. Our Facts Section Css
+   (Smash) 09. Our Facts Section Css
 ============================================= */
 .our-fact-counter {
 	padding: 25px 0;
@@ -2684,7 +2705,7 @@ body {
 }
 
 /* ===========================================
-   (PicklePro) 10. Pricing Plans Section css
+   (Smash) 10. Pricing Plans Section css
 ============================================== */
 .sisf-sis-pricing-table {
 	border-radius: 16px;
@@ -2781,7 +2802,7 @@ body {
 }
 
 /* ===========================================
-   (PicklePro) 11. Service Detail Page Css
+   (Smash) 11. Service Detail Page Css
 ============================================== */
 .sisf-sis-page-list,
 .sisf-sis-page-contact-bottom {
@@ -2858,7 +2879,7 @@ body {
 }
 
 /* ===================================
-   (Picklepro) 12. Team Detail Page Css
+   (Smash) 12. Team Detail Page Css
 ======================================= */
 .detail-page-contact-info {
 	margin: 30px 0;
@@ -2972,7 +2993,7 @@ body {
 }
 
 /* ==========================================
-   (PicklePro) 13. Our Services Section css
+   (Smash) 13. Our Services Section css
 ============================================= */
 
 .sisf-sis-e-service-list {
@@ -3204,7 +3225,7 @@ body {
 }
 
 /* ==========================================
-   (PicklePro) 14. Testimonial Section css
+   (Smash) 14. Testimonial Section css
 ============================================= */
 
 .logo-slider {
@@ -3439,7 +3460,7 @@ body {
 }
 
 /* ====================================
-   (Picklepro) 16. Video Section css
+   (Smash) 16. Video Section css
 ======================================= */
 
 .video-section {
@@ -3584,7 +3605,7 @@ body {
 }
 
 /* ===============================
-   (Picklepro) 17. FAQ Page css
+   (Smash) 17. FAQ Page css
 ================================== */
 .sisf-sis-faq-contents {
    margin-top: 40px;
