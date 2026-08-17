@@ -2392,6 +2392,7 @@ body {
 .sisf-what-we-do-side-image img,
 .sisf-what-we-do-image img {
 	width: 60%;
+	border-radius: 20px;
 }
 
 .sisf-about--image {

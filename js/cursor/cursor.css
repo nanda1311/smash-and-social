@@ -44,3 +44,49 @@
 .sisf-cursor--icon {
     display: none !important;
 }
+
+
+/* Hide the native cursor everywhere */
+html,
+body,
+a,
+button,
+input,
+textarea,
+select,
+[role="button"],
+.sisf-js-cursor {
+	cursor: none !important;
+}
+
+/* Custom cursor wrapper */
+.sisf-js-cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+	z-index: 999999;
+}
+
+.sisf-cursor-wrapper {
+	position: relative;
+}
+
+/* The image/follower element itself */
+.sisf-js-follower {
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	will-change: transform;
+	transform: translate(-50%, -50%); /* center the image on the pointer */
+}
+
+/* Hide the other placeholder divs unless you're using them */
+.sisf-js-label,
+.sisf-js-drap,
+.sisf-js-icon {
+	display: none;
+}
