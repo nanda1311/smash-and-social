@@ -521,16 +521,44 @@ body {
 .sisf-sis-heading-title.white span {
 	-webkit-text-stroke: 1px var(--white-color) !important;
 }
+/* Desktop video visible by default */
+.desktop-video {
+    display: block;
+    width: 100%;
+}
 
+.mobile-video {
+    display: none;
+    width: 100%;
+}
+
+
+/* Mobile version */
+@media (max-width: 767px) {
+
+    .desktop-video {
+        display: none;
+    }
+
+    .mobile-video {
+        display: block;
+    }
+
+
+    
+}
 .section-title h1 {
 	color: var(--primary-color);
-	font-size: 62px;
+	font-size: 50px;
     font-weight: 700;
     line-height: 72px;
     text-transform: none;
     letter-spacing: 0px;
 	margin-bottom: 1px !important;
 }
+
+
+
 
 .section-title h2 {
 	margin-bottom: 20px;
@@ -1723,7 +1751,7 @@ body {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: var(--primary-color);
+	background-color: #000000d4;
 	opacity: 90%;
 	width: 100%;
 	height: 100%;
@@ -2103,7 +2131,7 @@ body {
 }
 
 /* ==========================================
-   (Smash) 05. What We Have Section css
+   (Smashh) 05. What We Have Section css
 ============================================= */
 .comman-bg-player {
 	background: linear-gradient(to bottom, #d5d2c5 10%, #d8d2c9 20%, #d7d1c8 30%, #dbd8c9 40%, #d9d6c8 50%, #d6d3c6 60%, #d8d5c8 70%, #d9d6c9 80%, #c8c3b5 90%, #9790818c 100%);}
@@ -2229,7 +2257,7 @@ body {
 }
 
 /* =====================================
-   (Smash) 06. About Us Section css
+   (Smashh) 06. About Us Section css
 ======================================== */
 .sisf-about-side-image,
 .sisf-what-we-do-side-image,
@@ -2419,7 +2447,7 @@ body {
 }
 
 /* =====================================
-   (Smash) 07. Join Us Section css
+   (Smashh) 07. Join Us Section css
 ======================================== */
 .join-us-section {
 	background-image: url("../images/join-us_bg.jpg");
@@ -2467,7 +2495,7 @@ body {
 }
 
 /* =========================================
-   (Smash) 08. How It Works Section css
+   (Smashh) 08. How It Works Section css
 ============================================ */
 .how-it-works-hover-item {
 	padding: 15px;
@@ -2636,7 +2664,7 @@ body {
 }
 
 /* ==========================================
-   (Smash) 09. Our Facts Section Css
+   (Smashh) 09. Our Facts Section Css
 ============================================= */
 .our-fact-counter {
 	padding: 25px 0;
@@ -2658,7 +2686,7 @@ body {
 }
 
 .sisf-our-fact-image img {
-	margin-bottom: -70px;
+	margin-bottom: 0px;
 }
 
 .ready-to-play-image {
@@ -2706,7 +2734,7 @@ body {
 }
 
 /* ===========================================
-   (Smash) 10. Pricing Plans Section css
+   (Smashh) 10. Pricing Plans Section css
 ============================================== */
 .sisf-sis-pricing-table {
 	border-radius: 16px;
@@ -2803,7 +2831,7 @@ body {
 }
 
 /* ===========================================
-   (Smash) 11. Service Detail Page Css
+   (Smashh) 11. Service Detail Page Css
 ============================================== */
 .sisf-sis-page-list,
 .sisf-sis-page-contact-bottom {
@@ -2880,7 +2908,7 @@ body {
 }
 
 /* ===================================
-   (Smash) 12. Team Detail Page Css
+   (Smashh) 12. Team Detail Page Css
 ======================================= */
 .detail-page-contact-info {
 	margin: 30px 0;
@@ -2994,7 +3022,7 @@ body {
 }
 
 /* ==========================================
-   (Smash) 13. Our Services Section css
+   (Smashh) 13. Our Services Section css
 ============================================= */
 
 .sisf-sis-e-service-list {
@@ -3226,7 +3254,7 @@ body {
 }
 
 /* ==========================================
-   (Smash) 14. Testimonial Section css
+   (Smashh) 14. Testimonial Section css
 ============================================= */
 
 .logo-slider {
@@ -3461,7 +3489,7 @@ body {
 }
 
 /* ====================================
-   (Smash) 16. Video Section css
+   (Smashh) 16. Video Section css
 ======================================= */
 
 .video-section {
@@ -3606,7 +3634,7 @@ body {
 }
 
 /* ===============================
-   (Smash) 17. FAQ Page css
+   (Smashh) 17. FAQ Page css
 ================================== */
 .sisf-sis-faq-contents {
    margin-top: 40px;
@@ -4291,7 +4319,7 @@ select.form-control option {
 	align-items: center;
 	top: 0;
 	left: 0;
-	background-color: transparent;
+	background-color: #00000087;
 }
 
 .sisf-page-title .sisf-m-inner {
@@ -8769,7 +8797,7 @@ ease-in-out;
 	}
 
 	.home-page .hero-slider-layout .hero-slide {
-		height: 800px;
+		height: 567px;
 	}
 
 	.hero-right-image {
@@ -10503,4 +10531,33 @@ ease-in-out;
 	.row-cols-5 .col-md-3 {
 		width: 100%;
 	}
+}
+
+
+.sisf-e-service-image picture {
+    display: block;
+    width: 100%;
+}
+
+.sisf-e-service-image picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/* MOBILE */
+@media (max-width: 767px) {
+
+    .sisf-e-service-image picture {
+        display: block;
+        width: 100%;
+    }
+
+    .sisf-e-service-image picture img {
+        width: 100% !important;
+        height: auto !important;
+        display: block !important;
+    }
+
 }

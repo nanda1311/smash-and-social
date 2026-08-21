@@ -1,1 +1,1 @@
-"# smash-and-social" 
+"# smashh-and-social" 

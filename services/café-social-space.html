@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
-   
+
 <head>
       <!-- Meta -->
       <meta charset="utf-8">
@@ -10,7 +10,7 @@
       <meta name="keywords" content="">
       <meta name="robots" content="max-image-preview:large">
       <!-- Page Title -->
-      <title>Smash & Social , Café & Social Space</title>
+      <title>Smashh & Social , Café & Social Space</title>
       <!-- Favicon Icon -->
       <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.png">
       <!-- Google Fonts Css-->
@@ -44,6 +44,32 @@
       <link rel="stylesheet" href="../css/mousecursor.css">
       <!-- Main Custom Css -->
       <link href="../css/custom.css" rel="stylesheet" media="screen">
+
+      <style>
+         /* --- Zigzag cafe services section --- */
+         .bm-services { padding: 40px 0 20px; }
+         .bm-service-row { display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 70px; }
+         .bm-service-row:last-child { margin-bottom: 20px; }
+         .bm-service-row .bm-img-col,
+         .bm-service-row .bm-text-col { width: 50%; padding: 0 20px; }
+         .bm-service-row.bm-reverse { flex-direction: row-reverse; }
+         .bm-service-img { width: 100%; border-radius: 12px; overflow: hidden; }
+         .bm-service-img img { width: 100%; height: 100%; min-height: 340px; object-fit: cover; display: block; border-radius: 12px; }
+         .bm-service-number { font-size: 15px; letter-spacing: 2px; font-weight: 600; }
+         .bm-service-title { margin: 10px 0 16px; }
+         .bm-service-desc { margin-bottom: 18px; }
+         .bm-service-list { list-style: none; margin: 0; padding: 0; }
+         .bm-service-list li { display: flex; align-items: flex-start; margin-bottom: 10px; }
+         .bm-service-list li .sisf-e-icon { margin-top: 3px; }
+         @media (max-width: 767px) {
+            .bm-service-row,
+            .bm-service-row.bm-reverse { flex-direction: column; }
+            .bm-service-row .bm-img-col,
+            .bm-service-row .bm-text-col { width: 100%; padding: 0 12px; }
+            .bm-service-row .bm-img-col { margin-bottom: 24px; }
+            .bm-service-img img { min-height: 240px; }
+         }
+      </style>
    </head>
    <body>
 <!-- Preloader Start -->
@@ -52,9 +78,9 @@
       <div class="loading"></div>
       <div id="loading-icon">
          <figure class="reveal">
-            <img src="../images/loader.png" alt="Smash & Social" class="preload-img active" data-step="0">
+            <img src="../images/loader.png" alt="Smashh & Social" class="preload-img active" data-step="0">
             <img src="../images/loader1.png" alt="Badminton Courts" class="preload-img" data-step="1">
-            <img src="../images/loader2.png" alt="Calisthenics Gym" class="preload-img" data-step="2">
+            <img src="../images/loader2.png" alt="Fitness Gym" class="preload-img" data-step="2">
          </figure>
       </div>
    </div>
@@ -142,7 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="sisf-banner position-relative">
          <div class="banner-img">
             <figure>
-               <img src="../images/page_banner_cafe.png" alt="Smash & Social">
+               <img src="../images/page_banner_cafe.png" alt="Smashh & Social">
             </figure>
          </div>
          <div class="sisf-page-title sisf-m sisf-title--standard sisf-alignment--center">
@@ -165,351 +191,123 @@ document.addEventListener("DOMContentLoaded", function () {
          </div>
       </div>
       <!-- Banner Section End -->
-      <!-- Service Detail Page Section Start -->
-      <div class="service-detail-page-section section">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="sisf-e-inner">
-                     <div class="sis-e-inner-contents">
-                        <!-- Section Title Start -->
-                        <div class="sisf-sis-section-title section-title">
-                           <h2 class="sisf-m-title text-anime-style-3">A Space To Pause, Connect, <span class="sisf-e-colored">And Belong.</span></h2>
-                           <div class="sisf-m-text wow fadeInUp">
-                              <p>At Smash & Social, the café is more than an amenity , it's an integral part of the experience. Thoughtfully designed to blend comfort, community, and contemporary aesthetics, it serves as a welcoming destination for athletes, professionals, families, and friends alike.</p>
-                           </div>
-                        </div>
-                        <!-- Section Title End -->
-                        <!-- Section Title Start -->
-                        <div class="sisf-sis-section-title section-title">
-                           <h2 class="sisf-m-title text-anime-style-3">Where Competition Turns Into <span class="sisf-e-colored">Conversation.</span></h2>
-                           <div class="sisf-m-text wow fadeInUp">
-                              <p>Whether you're celebrating a hard-fought victory, discussing strategy after a training session, catching up with friends over coffee, or simply taking a moment to unwind, the café offers an atmosphere that encourages meaningful interactions and shared experiences. From early morning coffees before a workout to relaxed evenings spent connecting with like-minded individuals, the space is designed to complement the active lifestyle of our community.</p>
-                           </div>
-                        </div>
-                        <!-- Section Title End -->
-                        <!-- Section Title Start -->
-                        <div class="sisf-sis-section-title section-title">
-                           <h2 class="sisf-m-title text-anime-style-3">Because Great Communities Are Built Through <span class="sisf-e-colored">Moments Shared.</span></h2>
-                           <div class="sisf-m-text wow fadeInUp">
-                              <p>At its core, Smash & Social is about bringing people together , and the café embodies that philosophy. It is where teammates become friends and every visit becomes part of a larger community experience. Because great communities are built not only through sport, but through the moments shared around it.</p>
-                           </div>
-                        </div>
-                        <!-- Section Title End -->
-                     </div>
-                  </div>
-                  <div class="row align-items-center">
 
-                     </div>
-                     <div class="col-12">
-                        <!-- Content Start -->
-                        <div class="sisf-sis-benefits-contents bottom position-relative wow fadeInUp" data-wow-delay="0.5s">
-                           <div class="sisf-e-inner comman-bg justify-content-start p-4 rounded-3">
-                              <!-- Icon Image Start -->
-                              <div class="sisf-sis-icons mb-4">
-                                 <figure>
-                                    <img src="../images/benifis-icon3.svg" alt="Smash & Social">
-                                 </figure>
-                              </div>
-                              <!-- Icon Image End -->
-                              <!-- Icon Content Start -->
-                              <div class="sisf-e-content">
-                                 <div class="sisf-sis-title mb-2">
-                                    <h4>The Ultimate Social & Café Experience</h4>
-                                 </div>
-                                 <div class="sisf-e-text">
-                                    <p>A welcoming space where community, comfort, and connection come together.</p>
-                                 </div>
-                              </div>
-                              <!-- Icon Content End -->
-                              <div class="sisf-benifits-list d-flex align-items-center mb-3 wow fadeInUp">
-                                 <div class="sisf-e-icon me-3">
-                                    <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                                 </div>
-                                 <div class="sisf-m-text">
-                                    <h4>A Vibrant Atmosphere Built Around Connection</h4>
-                                 </div>
-                              </div>
-                              <div class="sisf-benifits-list d-flex align-items-center wow fadeInUp" data-wow-delay="0.25s">
-                                 <div class="sisf-e-icon me-3">
-                                    <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                                 </div>
-                                 <div class="sisf-m-text">
-                                    <h4>A Natural Gathering Place Both On & Off the Court</h4>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- Content End -->
-                     </div>
-                     <div class="col-12">
-                        <!-- Section Title Start -->
-                        <div class="sisf-sis-section-title mb-4 section-title">
-                           <h2 class="sisf-m-title text-anime-style-3">What The Café <span class="sisf-e-colored">Offers</span></h2>
-                           <div class="sisf-m-text wow fadeInUp">
-                              <p>Every corner of the Smash & Social Café & Social Space is designed to make you feel at home, welcome, and part of something bigger.</p>
-                           </div>
-                        </div>
-                        <!-- Section Title End -->
-                        <div class="programs-content-list">
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>Freshly Brewed Coffees & Beverages</h4>
-                              </div>
-                           </div>
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0.20s">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>Comfortable Seating & Contemporary Ambiance</h4>
-                              </div>
-                           </div>
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0.40s">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>Light Bites, Snacks & Post-Training Refreshments</h4>
-                              </div>
-                           </div>
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0.60s">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>A Community-First Atmosphere for All Visitors</h4>
-                              </div>
-                           </div>
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="0.80s">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>Spaces for Casual Meetups & Team Discussions</h4>
-                              </div>
-                           </div>
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="1.00s">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>Open to Members, Guests & Walk-In Visitors</h4>
-                              </div>
-                           </div>
-                           <div class="sisf-program-list-item d-flex align-items-center wow fadeInUp" data-wow-delay="1.20s">
-                              <div class="sisf-e-icon me-3">
-                                 <span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span>
-                              </div>
-                              <div class="sisf-m-text">
-                                 <h4>Morning to Evening Operating Hours</h4>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-md-6">
-                        <div class="gallery-items page-gallery-box my-4 pb-1">
-                           <div class="gallery-item box-gallery">
-                              <a href="../images/s-4-1.PNG">
-                                 <figure class="image-anime w-100 ">
-                                    <img src="../images/s-4-1.PNG" class="w-100 rounded-3" alt="Smash & Social">
-                                 </figure>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-md-6">
-                        <div class="gallery-items page-gallery-box my-4 pb-1">
-                           <div class="gallery-item box-gallery">
-                              <a href="../images/s-4-2.PNG">
-                                 <figure class="image-anime w-100 ">
-                                    <img src="../images/s-4-2.PNG" class="w-100 rounded-3" alt="Smash & Social">
-                                 </figure>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="detail-page-counter pb-4">
-                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                           <!-- Couter Item Start -->
-                           <div class="counter-item wow fadeInUp">
-                              <!-- Counter Title Start -->
-                              <div class="counter-title">
-                                 <h2 class="d-flex align-items-center">
-                                    <span class="counter sisf-e-colored">10</span>
-                                    <span class="sisf-digit-label sisf-e-colored">+</span>
-                                 </h2>
-                              </div>
-                              <!-- Counter Title End -->
-                              <!-- Counter Content Start -->
-                              <div class="counter-content">
-                                 <span class="sisf-content">Years of coaching excellence</span>
-                              </div>
-                              <!-- Counter Content End -->
-                           </div>
-                           <!-- Couter Item End -->
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                           <!-- Couter Item Start -->
-                           <div class="counter-item wow fadeInUp" data-wow-delay="0.25s">
-                              <!-- Counter Title Start -->
-                              <div class="counter-title">
-                                 <h2 class="d-flex align-items-center">
-                                    <span class="counter sisf-e-colored">8</span>
-                                    <span class="sisf-digit-label sisf-e-colored">K</span>
-                                 </h2>
-                              </div>
-                              <!-- Counter Title End -->
-                              <!-- Counter Content Start -->
-                              <div class="counter-content">
-                                 <span class="sisf-content">Active &amp; satisfied members</span>
-                              </div>
-                              <!-- Counter Content End -->
-                           </div>
-                           <!-- Couter Item End -->
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                           <!-- Couter Item Start -->
-                           <div class="counter-item wow fadeInUp" data-wow-delay="0.5s">
-                              <!-- Counter Title Start -->
-                              <div class="counter-title">
-                                 <h2 class="d-flex align-items-center">
-                                    <span class="counter sisf-e-colored">97</span>
-                                    <span class="sisf-digit-label sisf-e-colored">%</span>
-                                 </h2>
-                              </div>
-                              <!-- Counter Title End -->
-                              <!-- Counter Content Start -->
-                              <div class="counter-content">
-                                 <span class="sisf-content">Positive improvement rate</span>
-                              </div>
-                              <!-- Counter Content End -->
-                           </div>
-                           <!-- Couter Item End -->
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="sisf-faq-accordian sisf-sis-faq-accordian mt-4 rounded-0">
-                           <div class="accordion rounded-0" id="sis-Accordion">
-                              <!-- Accordion Item Start-->
-                              <div class="accordion-item mt-0 wow bounceInRight">
-                                 <h3 class="accordion-header">
-                                    <button class="accordion-button ps-4 mt-0" data-bs-toggle="collapse" data-bs-target="#sisf-one">
-                                    <span>1. Who is the Café & Social Space open to?</span>
-                                    </button>
-                                 </h3>
-                                 <div id="sisf-one" class="accordion-collapse collapse show" data-bs-parent="#sis-Accordion">
-                                    <div class="accordion-body pt-0">
-                                       <div class="sisf-e-content-inner">
-                                          <p class="mb-0 text-white">The café is open to everyone , members, guests, families, professionals, and walk-in visitors. It's a welcoming space designed for anyone who wants to pause, connect, and enjoy a great atmosphere.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- Accordion Item End-->
-                              <!-- Accordion Item Start-->
-                              <div class="accordion-item wow bounceInRight">
-                                 <h3 class="accordion-header">
-                                    <button class="accordion-button ps-4 collapsed" data-bs-toggle="collapse" data-bs-target="#sisf-two">
-                                    <span>2. What kind of food and drinks are available?</span>
-                                    </button>
-                                 </h3>
-                                 <div id="sisf-two" class="accordion-collapse collapse" data-bs-parent="#sis-Accordion">
-                                    <div class="accordion-body pt-0">
-                                       <div class="sisf-e-content-inner">
-                                          <p class="mb-0 text-white">We serve freshly brewed coffees, a variety of beverages, light bites, snacks, and post-training refreshments , everything you need to recharge before or after your session.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- Accordion Item End-->
-                              <!-- Accordion Item Start-->
-                              <div class="accordion-item wow bounceInRight">
-                                 <h3 class="accordion-header">
-                                    <button class="accordion-button ps-4 collapsed" data-bs-toggle="collapse" data-bs-target="#sisf-three">
-                                    <span>3. Can I use the café space for team meetups or casual gatherings?</span>
-                                    </button>
-                                 </h3>
-                                 <div id="sisf-three" class="accordion-collapse collapse" data-bs-parent="#sis-Accordion">
-                                    <div class="accordion-body pt-0">
-                                       <div class="sisf-e-content-inner">
-                                          <p class="mb-0 text-white">Absolutely! The café is designed with comfortable seating and open spaces that are perfect for casual meetups, team strategy discussions, post-match celebrations, and relaxed social gatherings.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- Accordion Item End-->
-                              <!-- Accordion Item Start-->
-                              <div class="accordion-item wow bounceInRight">
-                                 <h3 class="accordion-header">
-                                    <button class="accordion-button ps-4 collapsed" data-bs-toggle="collapse" data-bs-target="#sisf-four">
-                                    <span>4. What are the café's operating hours?</span>
-                                    </button>
-                                 </h3>
-                                 <div id="sisf-four" class="accordion-collapse collapse" data-bs-parent="#sis-Accordion">
-                                    <div class="accordion-body pt-0">
-                                       <div class="sisf-e-content-inner">
-                                          <p class="mb-0 text-white">The café is open from early morning through to the evening, making it the ideal stop whether you're kicking off your day with a coffee before training or winding down after a session with friends.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- Accordion Item End-->
-                              <!-- Accordion Item Start-->
-                              <div class="accordion-item wow bounceInRight">
-                                 <h3 class="accordion-header">
-                                    <button class="accordion-button ps-4 collapsed" data-bs-toggle="collapse" data-bs-target="#sisf-five">
-                                    <span>5. Is the café only for people who play badminton?</span>
-                                    </button>
-                                 </h3>
-                                 <div id="sisf-five" class="accordion-collapse collapse" data-bs-parent="#sis-Accordion">
-                                    <div class="accordion-body pt-0">
-                                       <div class="sisf-e-content-inner">
-                                          <p class="mb-0 text-white">Not at all! While many of our visitors are athletes and members, the café warmly welcomes everyone , whether you're accompanying a friend, looking for a relaxed place to work, or simply stopping in for a great cup of coffee.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- Accordion Item End-->
-                              <!-- Accordion Item Start-->
-                              <div class="accordion-item wow bounceInRight">
-                                 <h3 class="accordion-header">
-                                    <button class="accordion-button ps-4 collapsed" data-bs-toggle="collapse" data-bs-target="#sisf-six">
-                                    <span>6. What makes the café different from a regular coffee shop?</span>
-                                    </button>
-                                 </h3>
-                                 <div id="sisf-six" class="accordion-collapse collapse" data-bs-parent="#sis-Accordion">
-                                    <div class="accordion-body pt-0">
-                                       <div class="sisf-e-content-inner">
-                                          <p class="mb-0 text-white">At Smash & Social, the café is more than just a place to eat and drink , it's a community hub. It's where competition turns into conversation, teammates become friends, and every visit becomes part of a shared experience that goes beyond the court.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <!-- Accordion Item End-->
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+      <!-- Cafe Services Zigzag Section Start -->
+      <div class="service-detail-page-section section bm-services">
+         <div class="container">
+
+            <!-- Section Intro -->
+            <div class="sisf-sis-section-title section-title text-center mb-5">
+               <h2 class="sisf-m-title text-anime-style-3">A Space To Pause,<br><span class="sisf-e-colored">Connect, And Belong.</span></h2>
+               <div class="sisf-m-text wow fadeInUp">
+                  <p>From casual hangouts to post-workout recovery meals, student study sessions to a quiet senior social hour , the café is built for every part of our community.</p>
                </div>
             </div>
+
+            <!-- 1. Socializing Space (Community) -->
+            <div class="bm-service-row wow fadeInUp">
+               <div class="bm-img-col">
+                  <div class="bm-service-img image-anime">
+                     <video autoplay muted loop playsinline class="w-100">
+                        <source src="../images/cafe-v-2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
+               </div>
+               <div class="bm-text-col">
+                  <span class="bm-service-number sisf-e-colored">01 / SOCIALIZING SPACE</span>
+                  <h3 class="bm-service-title">Socializing Space (Community)</h3>
+                  <p class="bm-service-desc">A relaxed, open cafe space designed to be the social hub of Smashh & Social , where players, members, and visitors hang out before or after their game.</p>
+                  <ul class="bm-service-list">
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Comfortable lounge-style and regular table seating zones</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Free Wi-Fi with court-view or gym-view seating</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Community boards/screens for results, events, and shoutouts</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Regular meetups , quiz nights, watch parties, open mic</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Loyalty perks for badminton/gym members and curated ambience</div></li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- 2. College Students -->
+            <div class="bm-service-row bm-reverse wow fadeInUp">
+               <div class="bm-img-col">
+                  <div class="bm-service-img image-anime">
+                     <video autoplay muted loop playsinline class="w-100">
+                        <source src="../images/cafe-v-4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
+               </div>
+               <div class="bm-text-col">
+                  <span class="bm-service-number sisf-e-colored">02 / COLLEGE STUDENTS</span>
+                  <h3 class="bm-service-title">College Students</h3>
+                  <p class="bm-service-desc">A budget-friendly, high-energy segment of the cafe tailored to attract students , positioning the cafe as a go-to hangout and study spot.</p>
+                  <ul class="bm-service-list">
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Student discounts and affordable combo meal/snack deals</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Study-friendly zones with charging points and good lighting</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Group seating for study sessions or hangouts</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Student events , open mic, board games, small tournaments</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Late-evening/weekend hours and campus tie-in promotions</div></li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- 3. Healthy Meals -->
+            <div class="bm-service-row wow fadeInUp">
+               <div class="bm-img-col">
+                  <div class="bm-service-img image-anime">
+                     <video autoplay muted loop playsinline class="w-100">
+                        <source src="../images/cafe-v-3.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
+               </div>
+               <div class="bm-text-col">
+                  <span class="bm-service-number sisf-e-colored">03 / HEALTHY MEALS</span>
+                  <h3 class="bm-service-title">Healthy Meals</h3>
+                  <p class="bm-service-desc">A menu built around nutrition and performance , appealing to athletes, gym-goers, and health-conscious visitors.</p>
+                  <ul class="bm-service-list">
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Protein-rich meals , grilled options, salads, and bowls</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Post-workout recovery menu with shakes, smoothies, and energy bites</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Low-carb, high-protein and vegan options clearly labeled</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Fresh juices, electrolyte-based hydration, and calorie/macro info</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Meal combos tied to gym/badminton packages with fresh ingredients</div></li>
+                  </ul>
+               </div>
+            </div>
+
+            <!-- 4. Elderly People Meetup Space (Curated Menu) -->
+            <div class="bm-service-row bm-reverse wow fadeInUp">
+               <div class="bm-img-col">
+                  <div class="bm-service-img image-anime">
+                     <video autoplay muted loop playsinline class="w-100">
+                        <source src="../images/cafe-v-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                     </video>
+                  </div>
+               </div>
+               <div class="bm-text-col">
+                  <span class="bm-service-number sisf-e-colored">04 / ELDERLY MEETUP SPACE</span>
+                  <h3 class="bm-service-title">Elderly People Meetup Space (Curated Menu)</h3>
+                  <p class="bm-service-desc">A calm, comfortable space and menu specifically designed for the senior community , tying directly into the badminton program for the elderly.</p>
+                  <ul class="bm-service-list">
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Quiet, comfortable seating away from high-energy zones</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Softer, low-spice, health-conscious menu with herbal teas</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Larger-print menus and friendly, senior-trained staff</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Fixed meetup slots post-badminton sessions (tea/coffee + snacks)</div></li>
+                     <li><div class="sisf-e-icon me-3"><span class="sisf-e-colored"><i class="fa-solid fa-circle-check"></i></span></div><div class="sisf-m-text">Optional recurring "senior social hour" with music or board games</div></li>
+                  </ul>
+               </div>
+            </div>
+
          </div>
       </div>
-      <!-- Service Detail Page Section End -->
-      <!-- Footer --> 
+      <!-- Cafe Services Zigzag Section End -->
+
+      <!-- Footer -->
       <footer class="main-footer main--footer">
          <div class="sisf-page-footer-inner-area">
-            <div class="sisf-page-footer-middle-area"><div class="container"><div class="row"><div class="col-lg-4 col-md-6"><div class="footer-logo mb-4 wow fadeInUp"><a href="../index.html"><img src="../images/white-logo.png" alt="Smash & Social"></a></div><div class="text wow fadeInUp"><p>Smash & Social , modern sports and lifestyle destination. Premium badminton, calisthenics gym, sports store, and café.</p></div><div class="social-icons-link wow fadeInUp"><ul class="list-unstyled p-0 m-0"><li class="me-3"><a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a></li><li class="me-3"><a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a></li><li class="me-3"><a href="#" class="text-white"><i class="fa-brands fa-x-twitter"></i></a></li><li><a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a></li></ul></div></div><div class="col-lg-2 col-md-6"><div class="footer-links wow fadeInUp" data-wow-delay="0.25s"><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="service.html">Services</a></li><li><a href="blogs.html">Blog</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact Us</a></li></ul></div></div><div class="col-lg-3 col-md-6"><div class="footer-links wow fadeInUp" data-wow-delay="0.5s"><h3>Our Offerings</h3><ul><li><a href="../services/badminton-courts.html">Badminton Courts</a></li><li><a href="../services/summer-academy-coaching.html">Summer Academy</a></li><li><a href="../services/corporate-tournament-hosting.html">Corporate & Tournament</a></li><li><a href="../services/calisthenics-gym.html">Calisthenics Gym</a></li><li><a href="../services/sports-store.html">Sports Store</a></li><li><a href="../services/café-social-space.html">Café & Social Space</a></li></ul></div></div><div class="col-lg-3 col-md-6"><div class="footer-links footer-about-links wow fadeInUp" data-wow-delay="0.75s"><h3>Contact Us</h3><div class="sisf-details mb-3"><a href="tel:+9966992122"><i class="fa-solid pe-3 fa-phone-volume"></i>9966992122</a></div><div class="sisf-details mb-3"><a href="mailto:smash@smashandsocial.com"><span class="pe-3"><i class="fa-regular fa-envelope"></i></span>smash@smashandsocial.com</a></div><div class="sisf-details d-flex align-items-center"><span class="pe-3"><i class="fa-solid fa-location-dot"></i></span><div id="map" style="width: 100%; height: 150px; border-radius: 12px;"></div>
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+            <div class="sisf-page-footer-middle-area"><div class="container"><div class="row"><div class="col-lg-4 col-md-6"><div class="footer-logo mb-4 wow fadeInUp"><a href="../index.html"><img src="../images/white-logo.png" alt="Smashh & Social"></a></div><div class="text wow fadeInUp"><p>Smashh & Social , modern sports and lifestyle destination. Premium badminton, fitness studio, merchandise, and café.</p></div><div class="social-icons-link wow fadeInUp"><ul class="list-unstyled p-0 m-0"><li class="me-3"><a href="#" class="text-white"><i class="fa-brands fa-facebook"></i></a></li><li class="me-3"><a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a></li><li><a href="#" class="text-white"><i class="fa-brands fa-youtube"></i></a></li></ul></div></div><div class="col-lg-2 col-md-6"><div class="footer-links wow fadeInUp" data-wow-delay="0.25s"><h3>Quick Links</h3><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="service.html">Services</a></li><li><a href="blogs.html">Blog</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact Us</a></li></ul></div></div><div class="col-lg-3 col-md-6"><div class="footer-links wow fadeInUp" data-wow-delay="0.5s"><h3>Our Offerings</h3><ul><li><a href="../services/badminton-courts.html">Badminton Courts</a></li><li><a href="../services/summer-academy-coaching.html">Summer Academy</a></li><li><a href="../services/corporate-tournament-hosting.html">Corporate & Tournament</a></li><li><a href="../services/fitness-gym.html">Fitness Studio</a></li><li><a href="../services/merchandise.html">Merchandise</a></li><li><a href="../services/café-social-space.html">Café & Social Space</a></li></ul></div></div><div class="col-lg-3 col-md-6"><div class="footer-links footer-about-links wow fadeInUp" data-wow-delay="0.75s"><h3>Contact Us</h3><div class="sisf-details mb-3"><a href="tel:+92431 17181"><i class="fa-solid pe-3 fa-phone-volume"></i>92431 17181</a></div><div class="sisf-details mb-3"><a href="mailto:smashh@smashhhandsocial.com"><span class="pe-3"><i class="fa-regular fa-envelope"></i></span>smashh@smashhhandsocial.com</a></div><div class="sisf-details d-flex align-items-center"><span class="pe-3"><i class="fa-solid fa-location-dot"></i></span><div id="map" style="width: 100%; height: 150px; border-radius: 12px;"></div>            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
             <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
             <script>
             const lat = 12.9953514;
@@ -529,7 +327,7 @@ document.addEventListener("DOMContentLoaded", function () {
                .bindPopup('East of NGEF Layout, Kasturi Nagar, Bengaluru')
                .openPopup();
             </script></div></div></div></div></div></div>
-            <div class="sisf-page-footer-bottom-area"><div class="container"><div class="footer-copyright py-4"><div class="row"><div class="col-md-6"><div class="footer-copyright-text wow fadeInUp"><p class="mb-0 text-white">&copy; <span id="currentYear"></span> Smash & Social. All rights reserved. Developed by <a style="color: #ffffff; font-weight: 900;" target="_blank" href="https://thinkb.agency/">thinkB</a><span style="color: #ff0000; font-weight: 900;">.</span></p></div></div><div class="col-md-6"><div class="footer-privacy-policy text-end wow fadeInUp" data-wow-delay="0.25s"><ul><li><a href="#" class="text-white">Privacy Policy</a></li><li><a href="#" class="text-white">Terms of Service</a></li></ul></div></div></div></div>
+            <div class="sisf-page-footer-bottom-area"><div class="container"><div class="footer-copyright py-4"><div class="row"><div class="col-md-6"><div class="footer-copyright-text wow fadeInUp"><p class="mb-0 text-white">&copy; <span id="currentYear"></span> Smashh & Social. All rights reserved. Developed by <a style="color: #ffffff; font-weight: 900;" target="_blank" href="https://thinkb.agency/">thinkB</a><span style="color: #ff0000; font-weight: 900;">.</span></p></div></div><div class="col-md-6"><div class="footer-privacy-policy text-end wow fadeInUp" data-wow-delay="0.25s"><ul><li><a href="#" class="text-white">Privacy Policy</a></li><li><a href="#" class="text-white">Terms of Service</a></li></ul></div></div></div></div>
          </div>
       </footer>
       <!-- Footer End -->
@@ -537,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="sisf-cursor sisf-js-cursor"><div class="sisf-cursor-wrapper"><div class="sisf-cursor--follower sisf-js-follower"></div><div class="sisf-cursor--label sisf-js-label"></div><div class="sisf-cursor--drap sisf-js-drap"></div><div class="sisf-cursor--icon sisf-js-icon"></div></div></div>
       <div class="back-to-top-button"><button class="back-to-top" id="backToTop"><span class="mt-1"><i class="fa fa-chevron-up"></i></span></button></div>
       <div class="whatsapp-float" style="position: fixed; bottom: 94px; right: 29px; z-index: 999;">
-         <a href="https://wa.me/9966992122?text=Hi%20Smash%20%26%20Social%21%20I%20have%20a%20question." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" style="display: inline-flex; align-items: center; justify-content: center; width: 51px; height: 52px; background: #25D366; border-radius: 50%; color: #fff; font-size: 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.2);">
+         <a href="https://wa.me/92431 17181?text=Hi%20Smashh%20%26%20Social%21%20I%20have%20a%20question." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" style="display: inline-flex; align-items: center; justify-content: center; width: 51px; height: 52px; background: #25D366; border-radius: 50%; color: #fff; font-size: 24px; box-shadow: 0 8px 20px rgba(0,0,0,0.2);">
             <i class="fa-brands fa-whatsapp"></i>
          </a>
       </div>
